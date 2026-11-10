@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CSV to JSON</title>
+</head>
+<body>
+<h1>Zechariah Jose Refugio</h1>
+<h3><i>IT 3206N TTh 3:00 - 5:30</i></h3>
+
+<br>
+
+<h1>CSV to JSON</h1>
+
+<h2>1. Upload Source CSV Files</h2>
+
+<p>Student Information System (SIS):</p>
+<input type="file" id="sisFile" accept=".csv,text/csv">
+
+<p>Learning Management System (LMS):</p>
+<input type="file" id="lmsFile" accept=".csv,text/csv">
+
+<p>Accounting System:</p>
+<input type="file" id="accountingFile" accept=".csv,text/csv">
+
+<br><br>
+<button id="runButton" onclick="runETL()">RUN ETL</button>
+<p id="status">Upload the three CSV files and click RUN ETL.</p>
+
+<h2>6. JSON Output (For integrated students)</h2>
+<pre id="jsonOutput">Upload the CSV files and click RUN ETL.</pre>
+
+<script src="script.js"></script>
+</body>
+</html>
